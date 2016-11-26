@@ -39,7 +39,7 @@ app.directive('percentSize', function () {
                     // Setup the css for this object
                     $elm.css({
                         'font-size': _fontSize + 'px',
-                        'line-height': Math.ceil(_fontSize *1.25) + 'px'
+                        'line-height': 'auto'
                     });
                 
                 }
