@@ -26,7 +26,7 @@ app.directive('percentSize', function () {
                 var _fontSize = Math.ceil(_windowWidth * sizePercentage);
              
                 // Check to see if we have a valid line height
-                if (sizeLineHeight !== null && sizeLineHeight !== undefined && !isNan(sizeLineHeight)){
+                if (sizeLineHeight !== null && sizeLineHeight !== undefined && !isNaN(sizeLineHeight)){
                 
                     // Setup the css for this object
                     $elm.css({
